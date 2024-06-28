@@ -17,7 +17,7 @@
 
 .header nav li,
 nav li a {
-  color: white;
+  color: #ffd700;
   list-style: none;
 }
 
@@ -81,6 +81,7 @@ nav li a:hover {
   transform: translateX(-10px);
   opacity: 0;
   pointer-events: none;
+  color: #ffd700;
 }
 
 .navMobileActive {

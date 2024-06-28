@@ -23,7 +23,6 @@ function HeaderHome(props) {
       <header className={styles.header}>
         <nav>
           <Link to="/">
-            <img src={Logo} alt="Mellv - Logo" />
           </Link>
           {mobile &&
           <button aria-label="Menu" className={`${styles.mobileButton} ${mobileMenu && styles.mobileButtonActive}`} onClick={() => setMobileMenu(!mobileMenu)}></button>
