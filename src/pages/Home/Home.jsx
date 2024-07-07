@@ -20,9 +20,9 @@ function Home() {
         <HeaderHome tatuador="#tatuador" contato="#contato" />
         <main className="container main-home">
           <div className="titulo">
-            <h1 className="tattoo-title">TATTOO</h1>
+            <h1 className="tattoo-title">FAUSTINO</h1>
             <h1 className="studio-title">
-              <em>STUDIO</em>
+              <em>TATTOO</em>
             </h1>
           </div>
           <Link to="/agendamento">
@@ -35,11 +35,11 @@ function Home() {
 
       <section id="tatuador" className="bg-01 padding-container">
         <div className="container tatuadores">
-          <h2 className="title-session">TATUADORES</h2>
+          <h2 className="title-session">Galeria de Imagens</h2>
           <div className="cards">
-            <Card class="img-social1" nome="Felipe Moraes" contato="(16) 99923-46573" />
-            <Card class="img-social2" nome="Lidia Souza" contato="(16) 99923-46573" />
-            <Card class="img-social3" nome="Zoe Smith" contato="(16) 99923-46573" />
+            <Card>
+              
+            </Card>
           </div>
         </div>
       </section>
